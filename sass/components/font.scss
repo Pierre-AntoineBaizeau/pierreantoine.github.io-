@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    .logo {
+        h2 {
+            font-family: $Dosis;
+            font-weight: $Bold;
+            font-size  : $fs40;
+            padding-top: 45px;
+        }
+    }
+
+    ol {
+        li {
+            list-style-type: none;
+            font-family    : $Poppins;
+            font-weight    : $Medium;
+            font-size      : $fs16;
+
+        }
+    }
+
+    h1 {
+        font-family: $Poppins;
+        font-weight: $Medium;
+        font-size  : $fs50;
+        line-height: 70px;
+
+        strong {
+            font-weight: $Bold;
+            font-size  : $strong;
+        }
+    }
+
+    p {
+        font-family: $Poppins;
+        font-weight: $Light;
+        font-size  : $fs25;
+    }
+}
+
+main {
+    h2 {
+        font-family: $Sous-titre_ff;
+        font-weight: $Sous-titre_fw;
+        font-size  : $Sous-titre_fs;
+        color      : $Sous-titre_color;
+    }
+
+    h1 {
+        font-family: $Titre_ff;
+        font-weight: $Titre_fw;
+        font-size  : $Titre_fs;
+        color      : $Titre_color;
+    }
+
+    p {
+        font-family: $Paragraphe_ff;
+        font-weight: $Paragraphe_fw;
+        font-size  : $Paragraphe_fs;
+        color      : $Paragraphe_color;
+    }
+
+   
+
+    .container { 
+        h3 {
+        font-family: $Tcontainer_ff;
+        font-weight: $Tcontainer_fw;
+        font-size  : $Tcontainer_fs;
+        color      : $container_color;
+
+    }
+        p {
+            font-family: $Pcontainer_ff;
+            font-weight: $Pcontainer_fw;
+            font-size  : $Pcontainer_fs;
+            color      : $container_color;
+            line-height: $line-H_1-48;
+        }
+
+    }
+    .prix {
+        font-family: $Poppins;
+        font-weight: $SemiBold;
+        font-size: $fs30;
+        color: $bleu;
+    }
+
+    h3 {
+        font-family: $Lobster;
+        font-size  : $fs28;
+        line-height: $line-H_1-32;
+        color      : $bleuGris;
+    }
+}
+
+footer {
+
+    h1 {
+        font-family: $Dosis;
+        font-weight: $ExtraBold;
+        font-size  : $fs50;
+        color      : $Button_color;
+    }
+
+    h2 {
+        font-family: $Poppins;
+        font-weight: $Medium;
+        font-size  : $fs31;
+        color      : $Button_color;
+    }
+
+    li:first-child {
+        font-family   : $Poppins;
+        font-weight   : $Medium;
+        font-size     : $Sous-titre_fs;
+        color         : $Button_color;
+        padding-bottom: 30px;
+        line-height   : $line-H_1-50;
+    }
+
+    li {
+        font-family: $Poppins;
+        font-weight: $Normal;
+        font-size  : $fs16;
+        color      : $Button_color;
+        list-style : none;
+        line-height: $line-H_2-25;
+
+    }
+
+    a {
+        text-decoration: none;
+        color          : $Button_color;
+    }
+
+}

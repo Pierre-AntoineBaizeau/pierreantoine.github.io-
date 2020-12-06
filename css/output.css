@@ -1,0 +1,341 @@
+.button, main .article_n3 aside div button, main .article_n2 aside div button, main .article_n1 aside button, header section button {
+  padding: 13px 40px;
+  border-radius: 25px;
+  border: none;
+  color: white;
+  background-image: linear-gradient(to left, #6156f9, #1a129f 50%);
+  font-family: "Poppins", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header .logo h2 {
+  font-family: "Dosis", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  padding-top: 45px;
+}
+header ol li {
+  list-style-type: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+}
+header h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 70px;
+}
+header h1 strong {
+  font-weight: 700;
+  font-size: 74px;
+}
+header p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 25px;
+}
+
+main h2 {
+  font-family: "Lobster", cursive;
+  font-weight: 400;
+  font-size: 20px;
+  color: #7E76F9;
+}
+main h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 50px;
+  color: #42495B;
+}
+main p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  color: #7A839E;
+}
+main .container h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: #42495B;
+}
+main .container p {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  color: #42495B;
+  line-height: 1.48;
+}
+main .prix {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+  color: #1000FF;
+}
+main h3 {
+  font-family: "Lobster", cursive;
+  font-size: 28px;
+  line-height: 1.32;
+  color: #42495B;
+}
+
+footer h1 {
+  font-family: "Dosis", sans-serif;
+  font-weight: 800;
+  font-size: 50px;
+  color: white;
+}
+footer h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 31px;
+  color: white;
+}
+footer li:first-child {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  color: white;
+  padding-bottom: 30px;
+  line-height: 1.5;
+}
+footer li {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: white;
+  list-style: none;
+  line-height: 2.25;
+}
+footer a {
+  text-decoration: none;
+  color: white;
+}
+
+header {
+  margin-top: 20px;
+}
+header nav {
+  margin-left: -18%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+header nav .logo {
+  display: flex;
+  align-items: center;
+}
+header nav ol {
+  margin-left: -15%;
+  display: flex;
+}
+header nav ol li {
+  margin: 0 3% 0 3%;
+}
+header section {
+  flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+}
+header section aside:first-child {
+  margin-left: 7%;
+}
+header section p {
+  margin-bottom: 10px;
+}
+header section button {
+  font-weight: 500;
+  font-size: 16px;
+}
+header section svg {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+}
+header section aside {
+  margin-left: 7%;
+}
+header section aside img {
+  width: 550px;
+}
+header .svg {
+  margin-top: -50px;
+  margin-left: -100px;
+  text-align: center;
+}
+header .svg svg {
+  padding: 19.6px 26.2px;
+  border-radius: 50px;
+  width: 27.5px;
+  height: 41.3px;
+  box-shadow: 0 10px 20px 0 rgba(126, 118, 249, 0.16);
+}
+
+main .article_n1 {
+  margin-top: 90px;
+  margin-left: 1.5%;
+  display: flex;
+}
+main .article_n1 aside {
+  background-size: cover;
+  background-image: url(../../img/background-we-are.png);
+  padding: 0 249px 0 84.3px;
+}
+main .article_n1 aside h2 {
+  padding-top: 102px;
+}
+main .article_n1 aside button {
+  font-weight: 600;
+  font-size: 12px;
+}
+main .article_n2 h2 {
+  margin-left: 7%;
+  padding-top: 126px;
+}
+main .article_n2 h1 {
+  margin-left: 7%;
+  margin-bottom: 91.8px;
+}
+main .article_n2 .background {
+  position: absolute;
+  z-index: -1;
+  padding-top: 100px;
+  width: 100vw;
+}
+main .article_n2 aside {
+  justify-content: space-evenly;
+  display: flex;
+  flex-wrap: wrap;
+}
+main .article_n2 aside div {
+  background-color: white;
+  width: 366.8px;
+  height: 410px;
+  padding: 21.4px 20.6px 27.3px 30.3px;
+  border-radius: 36px;
+  box-shadow: 0 10px 20px 0 rgba(126, 118, 249, 0.16);
+  margin-bottom: 111px;
+  text-align: center;
+}
+main .article_n2 aside div img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+main .article_n2 aside div h3 {
+  padding: 21.4px 32.3px 27.3px 32.3px;
+  margin-right: 32.3px;
+}
+main .article_n2 aside div p {
+  margin: 0 10px;
+}
+main .article_n2 aside div button {
+  margin-top: 51px;
+  margin-left: 217px;
+  font-weight: 500;
+  font-size: 12px;
+}
+main .article_n3 {
+  margin-top: 173px;
+  background-color: #7f76f947;
+  text-align: center;
+}
+main .article_n3 h2 {
+  padding-top: 90px;
+}
+main .article_n3 aside {
+  justify-content: space-evenly;
+  display: flex;
+  flex-wrap: wrap;
+}
+main .article_n3 aside div {
+  width: 370px;
+  margin-top: 60px;
+  margin-bottom: 97px;
+  padding: 57px 39.4px 53px 40.1px;
+  border-radius: 26px;
+  background-color: white;
+  box-shadow: 0 10px 20px 0 rgba(126, 118, 249, 0.16);
+}
+main .article_n3 aside div .desc {
+  margin-top: 69px;
+  margin-bottom: 36px;
+}
+main .article_n3 aside div button {
+  font-weight: 500;
+  font-size: 16px;
+  margin-top: 40px;
+}
+main .article_n3 aside div .button_dif {
+  border: 1px solid #1000FF;
+  background-image: linear-gradient(to left, #ffffff, #ffffff 50%);
+  color: #42495B;
+}
+main .article_n4 {
+  text-align: center;
+}
+main .article_n4 h2 {
+  margin-top: 135px;
+}
+main .article_n4 input {
+  width: 430px;
+  height: 52px;
+  margin: 44px 26px 108px 0;
+  padding: 18px 0 17px 30px;
+  background-color: #f6f7fb;
+  border: none;
+}
+
+button {
+  padding: 13px 40px;
+  border-radius: 25px;
+  border: none;
+  color: white;
+  background-image: linear-gradient(to left, #6156f9, #1a129f 50%);
+}
+
+footer .background {
+  position: absolute;
+  z-index: -1;
+  width: 100vw;
+}
+footer section {
+  display: flex;
+  padding-top: 253.3px;
+  color: white;
+  justify-content: space-evenly;
+}
+footer section div:nth-child(3) {
+  display: flex;
+}
+footer section div:nth-child(3) ul:nth-child(2) li:nth-child(2) {
+  padding-top: 42px;
+}
+footer section svg {
+  margin-top: 27px;
+  size: 40px;
+}
+footer section svg:first-child,
+footer section svg:nth-child(2) {
+  transform: rotate(270deg);
+}
+footer section svg:first-child {
+  margin-left: 20px;
+  margin-right: 40px;
+  margin-top: 30px;
+}
+footer section svg:nth-child(2) {
+  margin-right: 40px;
+}
+footer section svg:nth-child(3) {
+  margin-right: 32px;
+}
+
+/*# sourceMappingURL=output.css.map */

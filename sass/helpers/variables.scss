@@ -1,0 +1,142 @@
+//typo
+
+
+//font-family
+$Dosis  : 'Dosis',
+sans-serif;
+$Lato   : 'Lato',
+sans-serif;
+$Lobster: 'Lobster',
+cursive;
+$Poppins: 'Poppins',
+sans-serif;
+
+//font-weight
+$Light    : 300;
+$Normal   : 400;
+$Medium   : 500;
+$SemiBold : 600;
+$Bold     : 700;
+$ExtraBold: 800;
+
+// font-size
+$fs16 : 16px;
+$fs20 : 20px;
+$fs25 : 25px;
+$fs28 : 28px;
+$fs30 : 30px;
+$fs31 : 31px;
+$fs40 : 40px;
+$fs50 : 50px;
+$strong: 74px;
+
+//line-height
+$line-H_70px : 70px;
+$line-H_1-32 : 1.32;
+$line-H_1-48 : 1.48;
+$line-H_1-50 : 1.50;
+$line-H_2-25 : 2.25;
+
+
+
+// color
+$white      : white;
+$whiteNuance:  #f6f7fb;
+$violetClair: #7E76F9;
+$bleuGris   : #42495B;
+$bleuBlanc  : #7A839E;
+$bleu : #1000FF;
+$violetTransparent : #7f76f947;
+$violetVersBleu : linear-gradient(to left, #6156f9, #1a129f 50%);
+$blancverblanc : linear-gradient(to left, #ffffff, #ffffff 50%);
+
+$shadow_violet :0 10px 20px 0 rgba(126, 118, 249, 0.16);
+
+
+// logo
+
+$Logo_ff: 'Dosis',
+sans-serif;
+$Logo_fw: $Bold;
+$Logo_fs: 40px;
+$Logo_color : #484848;
+
+
+
+//Sous-titre violet 
+
+$Sous-titre_ff   : $Lobster;
+$Sous-titre_fw   : $Normal;
+$Sous-titre_fs   : $fs20;
+$Sous-titre_color: $violetClair;
+
+
+
+// titre
+
+$Titre_ff   : $Poppins;
+$Titre_fw   : $SemiBold;
+$Titre_fs   : $fs50;
+$Titre_color: $bleuGris;
+
+
+
+//Paragraphe 
+
+$Paragraphe_ff   : $Poppins;
+$Paragraphe_fw   : $Light;
+$Paragraphe_fs   : $fs16;
+$Paragraphe_color: $bleuBlanc;
+
+
+
+// Butoon
+
+$Button_pad     : 13px 40px;
+$Button_bor-rad : 25px;
+$Button_bor     : none;
+$Button_color   : $white;
+$Button_back-img: $violetVersBleu;
+$Button_ff      : $Poppins;
+
+// Small Button
+
+$ButtonSmall_fw: $SemiBold;
+$ButtonSmall_fs: 12px;
+
+// Big Button
+
+$ButtonBig_fw: $Medium;
+$ButtonBig_fs: 16px;
+
+.button {
+    padding         : $Button_pad;
+    border-radius   : $Button_bor-rad;
+    border          : $Button_bor;
+    color           : $Button_color;
+    background-image: $Button_back-img;
+    font-family     : $Button_ff;
+}
+
+
+// text container 
+
+$container_color: #42495B;
+
+// titre container
+
+$Tcontainer_ff: $Poppins;
+$Tcontainer_fw: $SemiBold;
+$Tcontainer_fs: 18px;
+
+// paragraphe container
+
+$Pcontainer_ff: $Lato;
+$Pcontainer_fw: $Normal;
+$Pcontainer_fs :15px;
+
+
+
+
+$display_f : flex;
+$center : center;

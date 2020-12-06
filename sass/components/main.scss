@@ -1,0 +1,158 @@
+main {
+   
+    .article_n1 {
+        margin-top: 90px;
+        margin-left: 1.5%;
+        display: $display_f;
+        aside {
+            background-size: cover;
+            background-image: url(../../img/background-we-are.png);
+            padding: 0 249px 0 84.3px;
+
+            h2 {
+                padding-top: 102px;
+            }
+
+            button {
+                @extend .button;
+                font-weight: $ButtonSmall_fw;
+                font-size: $ButtonSmall_fs;
+            }
+    
+        }
+    }
+
+    .article_n2 {
+
+        h2 { 
+            margin-left: 7%;
+            padding-top: 126px;
+        }
+
+        h1 {
+            margin-left: 7%;
+            margin-bottom: 91.8px;
+        }
+
+        .background {
+            position: absolute;
+            z-index: -1;
+            padding-top: 100px;
+            width: 100vw;
+        }
+
+        aside {
+            justify-content: space-evenly;
+            display: $display_f;
+            flex-wrap: wrap;
+
+            div {
+                background-color: $white;
+                width: 366.8px;
+                height: 410px;
+                padding: 21.4px 20.6px 27.3px 30.3px;
+                border-radius: 36px;
+                box-shadow: $shadow_violet;
+                margin-bottom: 111px;
+                text-align: $center;
+
+                img {
+                    display: block;
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+
+                h3 {
+                    padding: 21.4px 32.3px 27.3px 32.3px;
+                    margin-right: 32.3px;
+                }
+
+                p {
+                    margin: 0 10px;
+                }
+                button {
+                    margin-top: 51px;
+                    margin-left: 217px;
+                    @extend .button;
+                    font-weight: $ButtonBig_fw;
+                    font-size: $ButtonSmall_fs;
+                }
+            }
+        }
+    }
+
+    .article_n3 {
+        margin-top: 173px;
+        background-color: $violetTransparent;
+        text-align: $center;
+
+        h2 {
+            padding-top: 90px;
+        }
+
+        aside {
+            justify-content: space-evenly;
+            display: $display_f;
+            flex-wrap: wrap;
+
+            div {
+                width: 370px;
+                margin-top: 60px;
+                margin-bottom: 97px;
+                padding: 57px 39.4px 53px 40.1px;
+                border-radius: 26px;
+                background-color: $white;
+                box-shadow: $shadow_violet;
+
+
+          
+
+                .desc {
+                    margin-top: 69px;
+                    margin-bottom: 36px;
+                }
+                
+
+                button {
+                    @extend .button;
+                    font-weight: $ButtonBig_fw;
+                    font-size: $ButtonBig_fs;
+                    margin-top: 40px;
+                    
+                }
+
+                .button_dif {
+                    border: 1px solid $bleu;
+                    background-image: $blancverblanc;
+                    color: $bleuGris;
+                }
+
+            }
+
+        }
+
+    }
+
+
+    .article_n4 {
+        text-align: $center;
+
+        h2 {
+            margin-top: 135px;
+        }
+
+        input {
+            width: 430px;
+            height: 52px;
+            margin: 44px 26px 108px 0;
+            padding: 18px 0 17px 30px;
+            background-color: $whiteNuance;
+            border: none;
+        }
+
+    }
+
+
+
+}
+

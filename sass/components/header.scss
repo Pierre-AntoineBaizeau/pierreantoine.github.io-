@@ -1,0 +1,80 @@
+
+header {
+    margin-top: 20px;
+
+    nav {
+        margin-left    : -18%;
+        display        : $display_f;
+        justify-content: space-around;
+        align-items    : $center;
+        flex-wrap: wrap;
+
+        .logo {
+            display    : $display_f;
+            align-items: $center;
+        }
+
+        ol {
+            margin-left: -15%;
+            display    : $display_f;
+
+            li {
+                margin: 0 3% 0 3%;
+            }
+        }
+
+
+    }
+
+    section {
+        flex-wrap: wrap;
+        display    : $display_f;
+        align-items: $center;
+
+        aside:first-child {
+            margin-left: 7%;
+        }
+
+        p {
+            margin-bottom: 10px;
+        }
+        
+
+        button {
+            @extend .button;
+            font-weight: $ButtonBig_fw;
+            font-size: $ButtonBig_fs;
+        }
+
+
+        svg {
+            position: absolute;
+            top     : 0;
+            right   : 0;
+            z-index : -1;
+        }
+
+        aside {
+            margin-left: 7%;
+
+            img {
+                width: 550px;
+            }
+        }
+    }
+
+    .svg {
+        margin-top : -50px;
+        margin-left: -100px;
+        text-align : $center;
+
+        svg {
+            padding      : 19.6px 26.2px;
+            border-radius: 50px;
+            width        : 27.5px;
+            height       : 41.3px;
+            box-shadow   : $shadow_violet ;
+        }
+    }
+}
+
